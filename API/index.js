@@ -85,7 +85,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
     res.send({
         success: 1,
-        message: 'Server is running',
+        message: `Server is running on PORT ${3000}`,
         data: {}
     });
 })
